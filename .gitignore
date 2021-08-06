@@ -7,3 +7,4 @@ package-lock.json
 install.js
 dist/
 compiled-theme.zip
+.DS_STORE
