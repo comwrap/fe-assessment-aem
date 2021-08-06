@@ -25,4 +25,4 @@ npm install
 npm run live
 ```
 
-3. Once your work completed, check your changes into GitHub.
+3. Once your work completed, check your changes into GitHub. Good Luck
