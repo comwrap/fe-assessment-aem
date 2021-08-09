@@ -25,4 +25,6 @@ npm install
 npm run live
 ```
 
-3. Once your work completed, check your changes into GitHub.
+3. See the INSTRUCTIONS.md for the initial user story.
+
+4. Check your changes into github and create a Pull Request
