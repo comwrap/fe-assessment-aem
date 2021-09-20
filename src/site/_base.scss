@@ -40,6 +40,7 @@
   font-family: defaultFont, serif;
   line-height: $font-height;
   background: $color-background;
+  overflow-x: hidden;
 }
 
 a {
