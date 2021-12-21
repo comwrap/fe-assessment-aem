@@ -12,6 +12,7 @@ This theme can be modified to customize the visual appearance of sites created f
 - `src/resources`: Associated files, like icons, logos, fonts.
 
 ## Build
+HINT: This project has to be build with Node 12
 
 1. Initialize the project with following command executed at the theme root:
 
