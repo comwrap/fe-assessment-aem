@@ -59,7 +59,7 @@
     & > .aem-GridColumn.aem-GridColumn--#{$breakPoint}--#{$column} {
       float: left;
       clear: none;
-      width: ($column * 100% / $columnTotal);
+      width: calc($column * 100% / $columnTotal);
     }
 
     @include generate-columns($breakPoint, $columnTotal, ($column + 1));
@@ -70,7 +70,7 @@
 @mixin generate-offsets($breakPoint, $columnTotal, $column: 0) {
   @if ($column <= $columnTotal) {
     & > .aem-GridColumn.aem-GridColumn--offset--#{$breakPoint}--#{$column} {
-      margin-left: ($column * 100% / $columnTotal);
+      margin-left: calc($column * 100% / $columnTotal);
     }
 
     @include generate-offsets($breakPoint, $columnTotal, ($column + 1));
